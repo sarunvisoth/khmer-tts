@@ -1,0 +1,8 @@
+title: Khmer Text-to-Speech
+description: >-
+  Free Khmer text-to-speech demo — natural Khmer speech from text, built on
+  F5-TTS fine-tuned on ~1,000 hours of Khmer speech. Try it in your browser.
+theme: jekyll-theme-primer
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
