@@ -1,6 +1,6 @@
 # Khmer Text-to-Speech 🗣️
 
-**▶ Try it now (free): https://huggingface.co/spaces/sarunvisoth/khmer-tts-demo**
+**[▶ Try it now — free demo on HuggingFace](https://huggingface.co/spaces/sarunvisoth/khmer-tts-demo)**
 
 Type Khmer, hear natural Khmer speech — two voices, numbers and dates read
 correctly, full paragraphs supported.
