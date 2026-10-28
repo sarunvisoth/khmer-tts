@@ -5,7 +5,20 @@
 Type Khmer, hear natural Khmer speech — two voices, numbers and dates read
 correctly, full paragraphs supported.
 
+> This repository is the project's landing page and documentation. The model and the app run on
+> HuggingFace: [sarunvisoth/khmer-tts-demo](https://huggingface.co/spaces/sarunvisoth/khmer-tts-demo)
+> (free, runs on ZeroGPU, no sign-up needed).
+
+## How to use it
+
+1. Open the [demo Space](https://huggingface.co/spaces/sarunvisoth/khmer-tts-demo).
+2. Paste or type Khmer text.
+3. Choose a voice and generate. A short reference clip also works as a voice (zero-shot cloning).
+
 ## What's under the hood
+
+Text goes through a Khmer text pipeline (numbers, dates and punctuation are normalised into spoken
+form), then the F5-TTS model generates the audio, conditioned on a reference voice clip.
 
 - **F5-TTS** (flow-matching DiT) fine-tuned on **~1,000 hours** of Khmer speech
 - A Khmer-specific text pipeline built and tested with native-speaker feedback
